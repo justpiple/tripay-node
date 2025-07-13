@@ -41,7 +41,7 @@ export class Signature {
    */
   static callbackSignature(body: ICallback, privateKey: string) {
     return createHmac('sha256', privateKey)
-      .update(Buffer.from(body.toString()))
+      .update(Buffer.from(JSON.stringify(body)))
       .digest('hex')
   }
 }
