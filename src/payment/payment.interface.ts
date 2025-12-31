@@ -63,6 +63,7 @@ export type PaymentMethod =
   | 'DANAMONVA' // Danamon VA payment method
   | 'BNCVA' // BNC VA payment method
   | 'BSIVAOP' // BSI VA OP payment method
+  | 'OTHERBANKVA' // Other Bank VA payment method
   | 'ALFAMART' // Alfamart payment method
   | 'INDOMARET' // Indomaret payment method
   | 'ALFAMIDI' // Alfamidi payment method
@@ -72,3 +73,4 @@ export type PaymentMethod =
   | 'QRIS2' // QRIS 2 payment method
   | 'SHOPEEPAY' // Shopeepay payment method
   | 'QRIS_SHOPEEPAY' // QRIS Shopeepay payment method
+  | 'DANA' // DANA payment method

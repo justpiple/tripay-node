@@ -33,6 +33,8 @@ export function isPaymentMethod(code: string): code is PaymentMethod {
       'QRIS2',
       'SHOPEEPAY',
       'QRIS_SHOPEEPAY',
+      'DANA',
+      'OTHERBANKVA'
     ].includes(code)
   )
 }
